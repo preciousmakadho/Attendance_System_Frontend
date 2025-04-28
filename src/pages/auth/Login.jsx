@@ -1251,6 +1251,7 @@ const capture = useCallback(async () => {
                         <Typography>{userProfile?.email}</Typography>
                       </Grid>
                     )}
+                    
                     {userProfile?.department && (
                       <Grid item xs={6}>
                         <Typography variant="subtitle1">Department</Typography>
